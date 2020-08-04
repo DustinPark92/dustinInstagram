@@ -7,14 +7,31 @@
 //
 
 import UIKit
+import Parse
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let object = PFObject(className: "testObject")
+        object["name"] = "Dustin"
+        object["lastname"] = "Park"
+        object.saveInBackground { (done, error) in
+            if done {
+                print( "saved in server")
+            } else {
+                print(error)
+            }
+        }
     }
 
 
 }
 
+
+//  if done {
+//      print( "saved in server" )
+//  } else {
+//      print(error)
+//  }
