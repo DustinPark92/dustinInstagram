@@ -14,7 +14,6 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var senderlb: UILabel!
-    
     @IBOutlet weak var receiverlb: UILabel!
     let message = String()
     let receiver = String()

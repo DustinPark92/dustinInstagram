@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DAA339A924DA909500A3C327 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA339A824DA909500A3C327 /* SignUpVC.swift */; };
+		DAA339AB24DA90A400A3C327 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA339AA24DA90A400A3C327 /* SignInVC.swift */; };
+		DAA339AD24DA90B800A3C327 /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA339AC24DA90B800A3C327 /* ResetPasswordVC.swift */; };
 		DADDD5DD24D94EF00033D7D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADDD5DC24D94EF00033D7D1 /* AppDelegate.swift */; };
 		DADDD5DF24D94EF00033D7D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADDD5DE24D94EF00033D7D1 /* SceneDelegate.swift */; };
 		DADDD5E124D94EF00033D7D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADDD5E024D94EF00033D7D1 /* ViewController.swift */; };
@@ -27,6 +30,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DAA339A824DA909500A3C327 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		DAA339AA24DA90A400A3C327 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		DAA339AC24DA90B800A3C327 /* ResetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
 		DADDD5D924D94EF00033D7D1 /* dustinInstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dustinInstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADDD5DC24D94EF00033D7D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DADDD5DE24D94EF00033D7D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +76,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DAA339A124DA905200A3C327 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DAA339A824DA909500A3C327 /* SignUpVC.swift */,
+				DAA339AA24DA90A400A3C327 /* SignInVC.swift */,
+				DAA339AC24DA90B800A3C327 /* ResetPasswordVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		DADDD5D024D94EF00033D7D1 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +106,7 @@
 		DADDD5DB24D94EF00033D7D1 /* dustinInstagram */ = {
 			isa = PBXGroup;
 			children = (
+				DAA339A124DA905200A3C327 /* Controller */,
 				DADDD5DC24D94EF00033D7D1 /* AppDelegate.swift */,
 				DADDD5DE24D94EF00033D7D1 /* SceneDelegate.swift */,
 				DADDD5E024D94EF00033D7D1 /* ViewController.swift */,
@@ -190,9 +207,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA339A924DA909500A3C327 /* SignUpVC.swift in Sources */,
 				DADDD5E124D94EF00033D7D1 /* ViewController.swift in Sources */,
 				DADDD5DD24D94EF00033D7D1 /* AppDelegate.swift in Sources */,
 				DADDD5DF24D94EF00033D7D1 /* SceneDelegate.swift in Sources */,
+				DAA339AB24DA90A400A3C327 /* SignInVC.swift in Sources */,
+				DAA339AD24DA90B800A3C327 /* ResetPasswordVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
